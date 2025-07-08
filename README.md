@@ -18,13 +18,15 @@ As a QA professional, I care not only about validating features, but also about 
 
 ---
 
-## Included visualizations
+---
+
+## 📈 Included visualizations
 
 ### 1. `Average Resolution Time by Issue Type`
 **Chart type**: Bar chart  
 **Metric**: Average resolution time for *Defects*, *Stories*, and *Story Bugs*  
- [`defect_resolution_time.sql`](queries/defect_resolution_time.sql)  
- ![chart](dashboard/chart_defect_resolution.png)
+[`defect_resolution_time.sql`](queries/defect_resolution_time.sql)  
+![chart](dashboard/Average_Resolution_Time_by_Issue.png)
 
 **Why this chart?**  
 It helps identify which issue types take longer to resolve, offering insight into process delays.
@@ -34,8 +36,8 @@ It helps identify which issue types take longer to resolve, offering insight int
 ### 2. `Defects by Severity`
 **Chart type**: Pie chart  
 **Metric**: Proportion of defects by severity level  
- [`defects_by_severity.sql`](queries/defects_by_severity.sql)  
- ![chart](dashboard/chart_defects_by_severity.png)
+[`defects_by_severity.sql`](queries/defects_by_severity.sql)  
+![chart](dashboard/Defect_Distribution_by_Severity.png)
 
 **Why this chart?**  
 Clearly communicates the impact of reported bugs by highlighting the ratio of critical vs. minor issues.
@@ -45,22 +47,11 @@ Clearly communicates the impact of reported bugs by highlighting the ratio of cr
 ### 3. `QA Efficiency Indicator`
 **Chart type**: Gauge or bar  
 **Metric**: Ratio of *Story Bugs* to total detected issues  
- [`qa_efficiency.sql`](queries/qa_efficiency.sql)  
- ![chart](dashboard/chart_qa_efficiency.png)
+[`qa_efficiency.sql`](queries/qa_efficiency.sql)  
+![chart](dashboard/QA_Efficiency_Indicator.png)
 
 **Why this chart?**  
 Helps evaluate how often issues are caught during the story phase versus later, signaling QA effectiveness.
-
----
-
-### 4. `Story Bugs by Defect`
-**Chart type**: Horizontal bar chart or table  
-**Metric**: Number of *Story Bugs* associated with each *Defect*  
- [`story_bug_by_defect.sql`](queries/story_bug_by_defect.sql)  
- ![chart](dashboard/chart_story_bug_by_defect.png)
-
-**Why this chart?**  
-Highlights recurring bug clusters tied to a single defect, which can point to deeper root causes.
 
 ---
 
@@ -75,8 +66,13 @@ All visualizations were created using:
 
 ---
 
+## Want to see it live?
+
+I'm happy to walk you through the dashboard in a short Loom video or live call — just let me know!
+
+---
+
 ## About me
 
 I'm **Gisela Martínez**, a QA Engineer passionate about quality, user experience, and continuous improvement.  
 I’ve worked in backend, mobile, web, and blockchain environments — and I love bringing clarity through well-structured metrics.
-
