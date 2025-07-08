@@ -37,7 +37,7 @@ It helps identify which issue types take longer to resolve, offering insight int
 **Chart type**: Pie chart  
 **Metric**: Proportion of defects by severity level  
 [`defects_by_severity.sql`](queries/defects_by_severity.sql)  
-![chart](dashboard/Defect_Distribution_by_Severity.png)
+![chart](dashboard/defects_by_severity.png)
 
 **Why this chart?**  
 Clearly communicates the impact of reported bugs by highlighting the ratio of critical vs. minor issues.
@@ -48,7 +48,7 @@ Clearly communicates the impact of reported bugs by highlighting the ratio of cr
 **Chart type**: Gauge or bar  
 **Metric**: Ratio of *Story Bugs* to total detected issues  
 [`qa_efficiency.sql`](queries/qa_efficiency.sql)  
-![chart](dashboard/QA_Efficiency_Indicator.png)
+![chart](dashboard/qa_efficiency.png)
 
 **Why this chart?**  
 Helps evaluate how often issues are caught during the story phase versus later, signaling QA effectiveness.
