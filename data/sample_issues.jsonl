@@ -1,0 +1,55 @@
+{
+    "id": "10001",
+    "key": "PE-101",
+    "status": "Done",
+    "components": ["ArDrive Web"],
+    "summary": "Fix login timeout issue",
+    "priority": "High",
+    "assignee": "Ana QA",
+    "reporter": "John Dev",
+    "created": "2024-05-01",
+    "updated": "2024-05-04",
+    "resolutiondate": "2024-05-05",
+    "Root Cause[Dropdown]": "Backend API Error",
+    "labels": ["login", "timeout"],
+    "Story Bug Root Cause[Dropdown]": "N/A",
+    "affectedVersions": ["v1.2.0"],
+    "fixVersions": ["v1.2.1"],
+    "type": "Defect",
+    "status_changes": [
+      {"from": "To Do", "to": "In Progress", "date": "2024-05-02"},
+      {"from": "In Progress", "to": "In QA", "date": "2024-05-03"},
+      {"from": "In QA", "to": "Done", "date": "2024-05-04"}
+    ],
+    "resolvedInSameRelease": true,
+    "isHotfix": true,
+    "Severity[Dropdown]": "Major"
+  }
+  {
+    "id": "10002",
+    "key": "PE-102",
+    "status": "Done",
+    "components": ["AR.IO Network Portal"],
+    "summary": "Update user profile layout",
+    "priority": "Medium",
+    "assignee": "Carlos QA",
+    "reporter": "Lili Designer",
+    "created": "2024-05-03",
+    "updated": "2024-05-06",
+    "resolutiondate": "2024-05-07",
+    "Root Cause[Dropdown]": "UX Improvement",
+    "labels": ["profile", "UI"],
+    "Story Bug Root Cause[Dropdown]": "N/A",
+    "affectedVersions": ["v1.2.0"],
+    "fixVersions": ["v1.2.2"],
+    "type": "Story",
+    "status_changes": [
+      {"from": "To Do", "to": "In Progress", "date": "2024-05-04"},
+      {"from": "In Progress", "to": "In QA", "date": "2024-05-05"},
+      {"from": "In QA", "to": "Done", "date": "2024-05-06"}
+    ],
+    "resolvedInSameRelease": false,
+    "isHotfix": false,
+    "Severity[Dropdown]": "Minor"
+  }
+  
