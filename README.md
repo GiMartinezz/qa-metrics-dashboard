@@ -75,12 +75,6 @@ All visualizations were created using:
 
 ---
 
-## Want to see it live?
-
-I'm happy to walk you through the dashboard in a short Loom video or live call — just let me know!
-
----
-
 ## About me
 
 I'm **Gisela Martínez**, a QA Engineer passionate about quality, user experience, and continuous improvement.  
